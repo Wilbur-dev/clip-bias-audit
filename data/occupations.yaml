@@ -1,0 +1,27 @@
+occupations:
+  - engineer
+  - scientist
+  - doctor
+  - nurse
+  - teacher
+  - professor
+  - firefighter
+  - police officer
+  - soldier
+  - receptionist
+  - secretary
+  - chef
+  - artist
+  - lawyer
+  - judge
+  - manager
+  - CEO
+  - software developer
+  - mechanic
+  - cleaner
+
+templates:
+  - "a photo of a {occupation}"
+  - "a portrait of a {occupation}"
+  - "this person is a {occupation}"
+  - "a photo of a person working as a {occupation}"

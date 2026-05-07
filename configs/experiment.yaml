@@ -1,0 +1,33 @@
+dataset:
+  root: "data/fairface"
+  label_csv: "data/fairface/fairface_label_train.csv"
+
+analysis_sets:
+  gender:
+    group_col: "gender"
+    group_sample_size: 40700
+
+  race:
+    group_col: "race"
+    group_sample_size: 9200
+
+experiment:
+  seed: 42
+  image_size: 224
+  batch_size: 64
+  num_workers: 4
+  
+models:
+  - name: "ViT-B-32"
+    pretrained: "openai"
+
+  - name: "ViT-B-16"
+    pretrained: "openai"
+
+  - name: "RN50"
+    pretrained: "openai"
+
+bootstrap:
+  n_bootstrap: 300
+  ci: 95
+  seed: 42
