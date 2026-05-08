@@ -1,7 +1,7 @@
 ## Installation
 
 ```bash
-git clone <your-repo>
+git clone https://github.com/Wilbur-dev/clip-bias-audit.git
 cd clip-bias-audit
 ```
 ```bash
